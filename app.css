@@ -1,0 +1,25 @@
+:root {
+    --primary-dark: #2d2d2d;
+    --secondary-dark: #a4a4a4;
+    --primary-white: #ffffff;
+    --primary-red: #cf2b2b;
+}
+
+body {
+    background-color: var(--primary-dark);
+    color: var(--primary-white);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+strong {
+    color: var(--secondary-dark);
+}
+
+a {
+    color: var(--primary-white);
+    text-decoration: underline;
+}
+
+footer {
+    color: var(--secondary-dark);
+}
