@@ -11,6 +11,11 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.container {
+    width: 960px;
+    margin: auto;
+}
+
 strong {
     color: var(--secondary-dark);
 }
