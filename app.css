@@ -1,8 +1,10 @@
 :root {
     --primary-dark: #2d2d2d;
-    --secondary-dark: #a4a4a4;
+    --secondary-dark: #3a3a3a;
+    --primary-gray: #a4a4a4;
     --primary-white: #ffffff;
     --primary-red: #cf2b2b;
+    --border-radius: 5px;
 }
 
 body {
@@ -12,12 +14,17 @@ body {
 }
 
 .container {
-    width: 960px;
+    width: 1140px;
     margin: auto;
 }
 
 strong {
-    color: var(--secondary-dark);
+    color: var(--primary-gray);
+    display: block;
+}
+
+iframe {
+    margin-top: 1em;
 }
 
 a {
@@ -25,6 +32,14 @@ a {
     text-decoration: underline;
 }
 
+.box {
+    margin: 25px 0px;
+    padding: 35px;
+    background-color: var(--secondary-dark);
+    border-radius: var(--border-radius);
+}
+
 footer {
-    color: var(--secondary-dark);
+    text-align: center;
+    color: var(--primary-white);
 }
