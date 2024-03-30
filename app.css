@@ -4,6 +4,7 @@
     --primary-gray: #a4a4a4;
     --primary-white: #ffffff;
     --primary-red: #cf2b2b;
+    --primary-sand: #ee5913;
     --border-radius: 5px;
     --gap: 25px;
     --container-width: 1140px;
@@ -27,7 +28,7 @@ body {
 }
 
 nav {
-    background-color: var(--primary-red);
+    background-color: var(--secondary-dark);
     border-radius: var(--border-radius);
     padding: 15px 25px;
 }
@@ -78,4 +79,5 @@ footer {
     text-align: center;
     color: var(--primary-white);
     border-radius: var(--border-radius);
+    background-color: var(--primary-sand);
 }
